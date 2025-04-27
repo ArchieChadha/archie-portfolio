@@ -1,0 +1,204 @@
+#projects {
+  margin: auto;
+  padding-top: 100px;
+  max-width: 1000px;
+  min-height: 50vh;
+}
+
+.carousel {
+  margin-bottom: 40px;
+  background-color: var(--light-navy);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.carousel-image-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.carousel-image-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 25, 47, 0.65); /* dark overlay */
+  z-index: 1;
+  pointer-events: none;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: none;
+  z-index: 2;
+}
+
+.carousel .carousel-caption {
+  position: relative;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+}
+
+.carousel .carousel-caption h3 {
+  font-family: "NTR", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  margin-bottom: 1rem;
+}
+
+.carousel .carousel-caption p {
+  font-family: "NTR", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  margin-bottom: 1rem;
+}
+
+.carousel .carousel-caption .github-icon {
+  margin-top: -8px;
+  vertical-align: middle;
+}
+
+.carousel .techStack {
+  font-family: "NTR", sans-serif;
+  font-size: 13px;
+  color: var(--green-bright) !important;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  margin-top: 0.5rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+@media (max-width: 1080px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+.projects-card {
+  position: relative;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  padding: 2rem 1.75rem;
+  background-color: var(--light-navy);
+  border-radius: 16px;
+}
+
+.projects-card:hover {
+  transform: translateY(-7px);
+  background-color: var(--lightest-navy);
+}
+
+.card-header {
+  margin-top: -20px;
+  display: flex;
+  padding: 1.25em 0 !important;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: none !important;
+}
+
+.folder-icon {
+  color: var(--green-bright);
+}
+
+.github-icon {
+  margin-top: 6px;
+}
+
+.github-icon:hover {
+  color: var(--green-bright);
+}
+
+.card-title {
+  font-family: "NTR", sans-serif;
+  color: var(--lightest-slate);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-desc {
+  font-family: "NTR", sans-serif;
+  color: var(--slate);
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.card-tech {
+  font-family: "NTR", sans-serif;
+  color: var(--slate);
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  #projects {
+    height: unset;
+    padding-left: unset;
+    padding-right: unset;
+  }
+  
+  .carousel-image-container {
+    height: 300px;
+  }
+  
+  .carousel-content {
+    padding: 1rem;
+  }
+  
+  .carousel .carousel-caption h3 {
+    font-size: 20px;
+  }
+  
+  .carousel .carousel-caption p {
+    font-size: 16px;
+  }
+}
+
+.external-link-icon svg {
+  color: var(--slate);
+  transition: color 0.2s;
+}
+
+.external-link-icon:hover svg {
+  color: var(--green-bright);
+}
+
+.carousel .carousel-caption .external-link-icon svg {
+  color: #fff !important;
+  transition: color 0.2s;
+}
+
+.carousel .carousel-caption .external-link-icon:hover svg {
+  color: var(--green-bright) !important;
+}
