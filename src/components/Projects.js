@@ -29,7 +29,7 @@ class Projects extends React.Component {
           "Developed a first-person exploration and mystery game set in a moonlit canyon. Designed core gameplay mechanics, environmental storytelling, and puzzles. Created custom 3D assets in Blender and scripted interactions in C# with Unity, focusing on immersive narrative and dynamic clues.",
         techStack: "PYTHON, MACHINE LEARNING, REACT.JS",
         link: "https://github.com/ArchieChadha/AI-Book-recommendation",
-        image: "/images/book-recommendation.png"
+        image: "/archie-portfolio/images/book-recommendation.png"
       },
       "YouTube Gesture Controller": {
         title: "YouTube Gesture Controller",
@@ -37,7 +37,7 @@ class Projects extends React.Component {
           "A hands-free YouTube controller using real-time hand gesture recognition. Integrated MediaPipe for gesture tracking and OpenCV for real-time processing, enabling users to control YouTube playback with simple hand movements.",
         techStack: "Python, OpenCV, MediaPipe, YouTube API",
         link: "https://github.com/ArchieChadha/Video-Gesture-Controller",
-        image: "/images/youtube-gesture-controller.png"
+        image: "/archie-portfolio/images/youtube-gesture-controller.png"
       },
       "Airplane Crash Visualization Dashboard": {
         title: "Airplane Crash Visualization Dashboard",
@@ -45,7 +45,7 @@ class Projects extends React.Component {
           "An interactive data visualization dashboard analyzing airplane crash data, providing insights into crash causes, geographical trends, and fatalities over time.",
         techStack: "Power BI, Tableau, SQL, Data Analysis",
         link: "https://app.powerbi.com/groups/me/reports/27c95ff6-f65c-4440-912c-72145682d1e9?ctid=cdf54d0f-cccc-4bf5-a773-9107927d3c5b&pbi_source=linkShare",
-        image: "/docs/images/airplane-crash-dashboard.png"
+        image: "/archie-portfolio/images/airplane-crash-dashboard.png"
       },
       "Moonlit Relic": {
         title: "Moonlit Relic",
@@ -53,7 +53,7 @@ class Projects extends React.Component {
           "Developed a first-person exploration and mystery game set in a moonlit canyon. Designed core gameplay mechanics, environmental storytelling, and puzzles. Created custom 3D assets in Blender and scripted interactions in C# with Unity, focusing on immersive narrative and dynamic clues.",
         techStack: "Unity (Game Engine), Blender (Custom 3D Asset Creation), C# (Game Scripting)",
         link: "https://github.com/ArchieChadha/MoonlitRelic",
-        image: "/images/moonlit-relic.png"
+        image: "/archie-portfolio/images/moonlit-relic.png"
       }
     };
     const projects = {
