@@ -6,13 +6,13 @@ Overview
 This website serves as a central hub to highlight my experience, technical expertise, and selected works. Built with clean UI/UX in mind, it's designed to be visually appealing, mobile-friendly, and informative for recruiters, collaborators, and potential employers.
 
 Features
-About Me section with educational & professional background
-Skills section featuring technologies like Java, Python, React, SQL, Power BI, and more
-Projects section with dynamic cards showcasing major work
-Contact Me form with email integration
-Dark/Light Mode toggle for better user experience
-Fully Responsive design for all screen sizes
- Interactive Animations and smooth transitions
+1. About Me section with educational & professional background
+2. Skills section featuring technologies like Java, Python, React, SQL, Power BI, and more
+3. Projects section with dynamic cards showcasing major work
+4. Contact Me form with email integration
+5. Dark/Light Mode toggle for better user experience
+6. Fully Responsive design for all screen sizes
+7. Interactive Animations and smooth transitions
 
 Tech Stack
 HTML5, CSS3, JavaScript ES6+
@@ -24,7 +24,11 @@ Framer Motion for animations
 Demo
 
 
-Installation (Optional for Developers)
+https://github.com/user-attachments/assets/9ab42abe-8b99-4789-af40-4d9878cea7f0
+
+
+
+Installation
 git clone https://github.com/yourusername/personal-portfolio.git
 cd personal-portfolio
 npm install
