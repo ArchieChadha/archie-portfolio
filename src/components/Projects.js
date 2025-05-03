@@ -37,7 +37,7 @@ class Projects extends React.Component {
           "A hands-free YouTube controller using real-time hand gesture recognition. Integrated MediaPipe for gesture tracking and OpenCV for real-time processing, enabling users to control YouTube playback with simple hand movements.",
         techStack: "Python, OpenCV, MediaPipe, YouTube API",
         link: "https://github.com/ArchieChadha/Video-Gesture-Controller",
-        image: "/images/youtube-gesture-controller.png"
+       image: "/archie-portfolio/images/youtube-gesture-controller.png"
       },
       "Airplane Crash Visualization Dashboard": {
         title: "Airplane Crash Visualization Dashboard",
