@@ -22,8 +22,6 @@ EmailJS for contact form handling
 Framer Motion for animations
 
 Demo
-
-
 https://github.com/user-attachments/assets/9ab42abe-8b99-4789-af40-4d9878cea7f0
 
 
