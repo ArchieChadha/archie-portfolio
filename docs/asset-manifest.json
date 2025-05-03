@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/archie-portfolio/static/css/main.2d13b7b5.css",
-    "main.js": "/archie-portfolio/static/js/main.5d077c8b.js",
+    "main.js": "/archie-portfolio/static/js/main.c9e01c97.js",
     "index.html": "/archie-portfolio/index.html",
     "main.2d13b7b5.css.map": "/archie-portfolio/static/css/main.2d13b7b5.css.map",
-    "main.5d077c8b.js.map": "/archie-portfolio/static/js/main.5d077c8b.js.map"
+    "main.c9e01c97.js.map": "/archie-portfolio/static/js/main.c9e01c97.js.map"
   },
   "entrypoints": [
     "static/css/main.2d13b7b5.css",
-    "static/js/main.5d077c8b.js"
+    "static/js/main.c9e01c97.js"
   ]
 }

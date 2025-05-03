@@ -45,7 +45,7 @@ class Projects extends React.Component {
           "An interactive data visualization dashboard analyzing airplane crash data, providing insights into crash causes, geographical trends, and fatalities over time.",
         techStack: "Power BI, Tableau, SQL, Data Analysis",
         link: "https://app.powerbi.com/groups/me/reports/27c95ff6-f65c-4440-912c-72145682d1e9?ctid=cdf54d0f-cccc-4bf5-a773-9107927d3c5b&pbi_source=linkShare",
-        image: "/images/airplane-crash-dashboard.png"
+        image: "/docs/images/airplane-crash-dashboard.png"
       },
       "Moonlit Relic": {
         title: "Moonlit Relic",
