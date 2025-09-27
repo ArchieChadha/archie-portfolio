@@ -84,37 +84,49 @@ const JobList = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
   const experienceItems = {
+    "Constant & Co Website Development": {
+      jobTitle: "Project Manager @",
+      duration: "JULY 2025 - PRESENT",
+      companyLink: "#",
+      desc: [
+        "Led a 5-member team, delivering Sprint 1 outcomes with 91% completion.",
+        "Defined sprint vision, Epics, PBIs, and tasks in Jira, ensuring alignment with Agile standards.",
+        "Monitored progress with Burndown Charts and facilitated backlog refinement to stay on track.",
+        "Chaired stand-ups and sprint planning, reviewing work and driving accountability.",
+        "Planned homepage content strategy and guided integration into wireframes.",
+        "Conducted QA/testing (HTML, CSS, accessibility, responsiveness), achieving a 100% pass rate and improving code quality.",
+        "Compiled and authored the Sprint 1 Report, consolidating team outputs and evidence.",
+        "Acted as client-facing lead, presenting deliverables and introducing a 24-hour pre-meeting feedback cycle that improved collaboration."
+      ]
+    },
+    "Interglobal Migration Services": {
+      jobTitle: "Digital Solutions Assistant @",
+      duration: "JAN 2025 - PRESENT",
+      companyLink: "https://imsmigration.com.au/",
+      desc: [
+        "Revamped and maintained company website, improving performance and user experience.",
+        "Implemented analytics tracking, driving a 20% increase in qualified client inquiries.",
+        "Automated internal workflows using scripts/tools, cutting manual effort and improving accuracy."
+      ]
+    },
     "Oasis Infobyte": {
       jobTitle: "Software Development Intern @",
-      duration: "JAN 2024 - MAR 2024",
+      duration: "JULY 2024 - DEC 2024",
       companyLink: "https://oasisinfobyte.com/",
       certificate: "/images/projects/best-performer-certificate.jpg",
       desc: [
-        "Contributed to the design, development, and deployment of key projects.",
-        "Gained valuable experience in agile development methodologies, debugging, testing, and optimizing performance.",
-        "Enhanced user experience by integrating intuitive front-end interfaces and ensuring high-quality software delivery."
+        "Delivered 3+ new features and improved load times by 15% through responsive UI integrations.",
+        "Debugged and optimized distributed backend systems for improved performance and scalability.",
+        "Collaborated in agile team environment & applied problem-solving skills to real world software challenges."
       ]
     },
     "Mentorness": {
       jobTitle: "Data Analyst Intern @",
-      duration: "MAR 2024 - MAY 2024",
+      duration: "JAN 2024 - JUNE 2024",
       companyLink: "https://mentorness.com/",
       desc: [
-        "Designed and developed interactive, insightful dashboards using Power BI and Tableau, providing stakeholders with clear, actionable insights.",
-        "Gathered, cleaned, and analyzed large datasets, ensuring data quality and integrity.",
-        "Created visually compelling presentations that summarized findings, trends, and recommendations.",
-        "Collaborated within an Agile framework, ensuring projects were completed on time and aligned with strategic objectives."
-      ]
-    },
-    "Interglobal Migration Services": {
-      jobTitle: "Migration Agent Assistant @",
-      duration: "JUN 2023 - PRESENT",
-      companyLink: "https://imsmigration.com.au/",
-      desc: [
-        "Managed end-to-end process of visa applications for clients, ensuring compliance with immigration laws and regulations.",
-        "Provided personalized support to clients by understanding their specific immigration needs and offering strategic solutions.",
-        "Maintained meticulous records and handled sensitive client data with high confidentiality.",
-        "Achieved a 90% success rate in visa approvals by ensuring applications meet required standards."
+        "Built dashboards and designed relational databases, strengthening data visualization for stakeholders.",
+        "Cleaned and analysed datasets (>50k rows), achieving 95% data accuracy."
       ]
     }
   };
