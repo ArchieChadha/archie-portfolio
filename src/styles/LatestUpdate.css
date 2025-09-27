@@ -1,0 +1,248 @@
+#latest-update {
+  min-height: 50vh;
+  margin: auto;
+  max-width: 1000px;
+  padding-top: 100px;
+  margin-bottom: 60px;
+}
+
+.updates-container {
+  margin-top: 40px;
+  display: flex;
+  overflow-x: auto;
+  gap: 24px;
+  padding: 20px 0;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.updates-container::-webkit-scrollbar {
+  display: none;
+}
+
+.update-item {
+  flex: 0 0 100%;
+  background: linear-gradient(135deg, var(--light-navy) 0%, var(--navy) 100%);
+  border-radius: 16px;
+  padding: 40px;
+  transition: all 0.3s ease;
+  position: relative;
+  border: 1px solid var(--lightest-navy);
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-right: 24px;
+  min-width: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.update-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(100, 255, 218, 0.15);
+  border-color: var(--green-bright);
+}
+
+.update-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--green-bright), #00d4aa);
+  border-radius: 16px 16px 0 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.update-item:hover::before {
+  opacity: 1;
+}
+
+.update-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.update-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.update-title {
+  font-family: "NTR", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--lightest-slate);
+  line-height: 1.3;
+  flex: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  min-width: 0;
+}
+
+.update-date {
+  font-family: "NTR", sans-serif;
+  font-size: 16px;
+  color: var(--green-bright);
+  font-weight: 600;
+  background: rgba(100, 255, 218, 0.1);
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--green-bright);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.update-description {
+  font-family: "NTR", sans-serif;
+  font-size: 18px;
+  color: var(--slate);
+  line-height: 1.6;
+  flex-grow: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  min-width: 0;
+}
+
+.update-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.update-status {
+  font-family: "NTR", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-completed {
+  background: linear-gradient(135deg, var(--green-bright), #00d4aa);
+  color: var(--navy);
+  box-shadow: 0 4px 15px rgba(100, 255, 218, 0.3);
+}
+
+.status-in-development {
+  background: linear-gradient(135deg, #00b894, #00cec9);
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 184, 148, 0.3);
+}
+
+.status-certified {
+  background: linear-gradient(135deg, #00b894, #00cec9);
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 184, 148, 0.3);
+}
+
+.update-category {
+  font-family: "NTR", sans-serif;
+  font-size: 14px;
+  color: var(--slate);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px 16px;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 768px) {
+  .update-item {
+    height: 350px;
+    padding: 32px;
+    gap: 32px;
+  }
+
+  .update-title {
+    font-size: 24px;
+  }
+
+  .update-description {
+    font-size: 16px;
+  }
+
+  .update-date {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .update-status,
+  .update-category {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #latest-update {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .update-item {
+    height: auto;
+    min-height: 350px;
+    padding: 20px;
+    gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .update-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .update-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .update-title {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .update-description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .update-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: auto;
+  }
+
+  .update-status,
+  .update-category {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+
+  .update-date {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+}

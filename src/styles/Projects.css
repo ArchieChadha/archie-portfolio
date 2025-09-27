@@ -169,19 +169,57 @@
   }
   
   .carousel-image-container {
-    height: 300px;
+    height: 350px;
   }
   
   .carousel-content {
-    padding: 1rem;
+    padding: 1.5rem 1rem;
+    max-height: 100%;
+    overflow-y: auto;
+  }
+  
+  .carousel .carousel-caption h3 {
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+  }
+  
+  .carousel .carousel-caption p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    max-height: 120px;
+    overflow-y: auto;
+  }
+  
+  .carousel .techStack {
+    font-size: 12px;
+    margin-top: 0.3rem;
+  }
+}
+
+/* Additional mobile improvements for very small screens */
+@media only screen and (max-width: 480px) {
+  .carousel-image-container {
+    height: 400px;
+  }
+  
+  .carousel-content {
+    padding: 1rem 0.8rem;
   }
   
   .carousel .carousel-caption h3 {
     font-size: 20px;
+    margin-bottom: 0.4rem;
   }
   
   .carousel .carousel-caption p {
-    font-size: 16px;
+    font-size: 13px;
+    max-height: 100px;
+  }
+  
+  .carousel .techStack {
+    font-size: 11px;
   }
 }
 

@@ -1,8 +1,9 @@
 import React from "react";
 import Intro from "./components/Intro";
-import Experience from "./components/Experience";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import LatestUpdate from "./components/LatestUpdate";
 import Certifications from "./components/Certifications";
 import Credits from "./components/Credits";
 import NavBar from "./components/NavBar";
@@ -20,6 +21,7 @@ function App() {
         <Experience></Experience>
         <Projects></Projects>
         <Certifications></Certifications>
+        <LatestUpdate></LatestUpdate>
         <Credits></Credits>
       </div>
     </div>

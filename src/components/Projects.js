@@ -23,13 +23,13 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "AI Book Recommendation": {
-        title: "AI Book Recommendation",
+      "Cloud-Based Disaster Recovery System": {
+        title: "Cloud-Based Disaster Recovery System",
         desc:
-          "Developed a first-person exploration and mystery game set in a moonlit canyon. Designed core gameplay mechanics, environmental storytelling, and puzzles. Created custom 3D assets in Blender and scripted interactions in C# with Unity, focusing on immersive narrative and dynamic clues.",
-        techStack: "PYTHON, MACHINE LEARNING, REACT.JS",
-        link: "https://github.com/ArchieChadha/AI-Book-recommendation",
-        image: "/archie-portfolio/images/book-recommendation.png"
+          "Designed fault-tolerant cloud infrastructure ensuring business continuity during failures. Deployed high-availability architecture with multi-AZ failover, achieving 99.99% uptime. Engineered automated backup and disaster recovery protocols, reducing operational costs by 30%.",
+        techStack: "Amazon Web Services (EC2, RDS, Lambda, CloudWatch), SQL Server",
+        link: "https://github.com/ArchieChadha/cloud-disaster-recovery-system",
+        image: "/archie-portfolio/images/cloud-disaster-recovery.png"
       },
       "YouTube Gesture Controller": {
         title: "YouTube Gesture Controller",
@@ -63,17 +63,11 @@ class Projects extends React.Component {
         techStack: "JAVA, REACT.JS, SQL",
         link: "https://github.com/ArchieChadha/OIBSIP/tree/main/JavaDevelopment/Task%202"
       },
-      "Number Guessing Game": {
+      "Heart Disease Prediction Using WEKA": {
         desc:
-          "An interactive game built during my internship at Oasis Infobyte, featuring real-time user input validation and session management.",
-        techStack: "JAVA, REACT.JS",
-        link: "https://github.com/ArchieChadha/OIBSIP/tree/main/JavaDevelopment/Task%201"
-      },
-      "Portfolio Website": {
-        desc:
-          "Built a dynamic and visually appealing personal portfolio to showcase skills, projects, and experience.",
-        techStack: "React.js, CSS, JavaScript",
-        link: "https://github.com/ArchieChadha/archie-portfolio"
+          "Predictive modeling pipeline with rigorous preprocessing and evaluation. Benchmarked algorithms to balance precision/recall and interpretability. Random Forest, Naive Bayes, and KNN baseline models. Feature selection and k-fold validation for robustness. Peak accuracy up to 85% on reference dataset.",
+        techStack: "WEKA, Data Preprocessing, Model Training",
+        link: "https://github.com/ArchieChadha/Heart-Disease-Prediction"
       }
     };
 

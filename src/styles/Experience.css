@@ -109,6 +109,9 @@ ul {
   #experience {
     padding-left: unset;
     padding-right: unset;
+    margin-bottom: 40px;
+    min-height: unset;
+    padding-bottom: 20px;
   }
 
   .jss1 {
@@ -122,12 +125,65 @@ ul {
     flex-direction: column;
   }
 
-  .joblist-job-title {
+  .job-title {
     font-size: 22px;
+    line-height: 1.3;
   }
 
   .joblist-job-company {
     font-size: 22px;
+  }
+
+  .job-description {
+    max-width: 100%;
+    padding-top: 16px;
+    font-size: 18px;
+  }
+
+  .job-description li {
+    font-size: 16px;
+    padding-bottom: 12px;
+    line-height: 1.4;
+  }
+
+  #vertical-tabpanel {
+    margin-top: -20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  ul {
+    margin-left: -20px;
+  }
+}
+
+/* Additional mobile improvements for very small screens */
+@media only screen and (max-width: 480px) {
+  #experience {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+  }
+
+  .job-title {
+    font-size: 20px;
+  }
+
+  .joblist-job-company {
+    font-size: 20px;
+  }
+
+  .job-description {
+    font-size: 16px;
+  }
+
+  .job-description li {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+
+  #vertical-tabpanel {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 

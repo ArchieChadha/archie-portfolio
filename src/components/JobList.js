@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import Tabs from "@material-ui/core/Tabs";
@@ -6,7 +6,6 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import FadeInSection from "./FadeInSection";
-import ImageModal from "./ImageModal";
 
 const isHorizontal = window.innerWidth < 600;
 
@@ -81,7 +80,6 @@ const useStyles = makeStyles(theme => ({
 const JobList = () => {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
-  const [modalOpen, setModalOpen] = useState(false);
 
   const experienceItems = {
     "Constant & Co Website Development": {
@@ -91,17 +89,13 @@ const JobList = () => {
       desc: [
         "Led a 5-member team, delivering Sprint 1 outcomes with 91% completion.",
         "Defined sprint vision, Epics, PBIs, and tasks in Jira, ensuring alignment with Agile standards.",
-        "Monitored progress with Burndown Charts and facilitated backlog refinement to stay on track.",
-        "Chaired stand-ups and sprint planning, reviewing work and driving accountability.",
-        "Planned homepage content strategy and guided integration into wireframes.",
         "Conducted QA/testing (HTML, CSS, accessibility, responsiveness), achieving a 100% pass rate and improving code quality.",
-        "Compiled and authored the Sprint 1 Report, consolidating team outputs and evidence.",
         "Acted as client-facing lead, presenting deliverables and introducing a 24-hour pre-meeting feedback cycle that improved collaboration."
       ]
     },
     "Interglobal Migration Services": {
       jobTitle: "Digital Solutions Assistant @",
-      duration: "JAN 2025 - PRESENT",
+      duration: "JULY 2023 - PRESENT",
       companyLink: "https://imsmigration.com.au/",
       desc: [
         "Revamped and maintained company website, improving performance and user experience.",
@@ -113,7 +107,6 @@ const JobList = () => {
       jobTitle: "Software Development Intern @",
       duration: "JULY 2024 - DEC 2024",
       companyLink: "https://oasisinfobyte.com/",
-      certificate: "/images/projects/best-performer-certificate.jpg",
       desc: [
         "Delivered 3+ new features and improved load times by 15% through responsive UI integrations.",
         "Debugged and optimized distributed backend systems for improved performance and scalability.",
@@ -173,26 +166,6 @@ const JobList = () => {
               );
             })}
           </ul>
-          {key === "Oasis Infobyte" && (
-            <div className="certificate-container">
-              <img
-                src={experienceItems[key]["certificate"]}
-                alt="Best Performer Certificate"
-                className="certificate-image"
-                style={{ maxWidth: 180, cursor: "pointer" }}
-                onClick={() => setModalOpen(true)}
-              />
-              <div style={{ fontSize: 14, color: "var(--slate)", marginTop: 8 }}>
-                Click to enlarge
-              </div>
-              <ImageModal
-                show={modalOpen}
-                onClose={() => setModalOpen(false)}
-                imgSrc={experienceItems[key]["certificate"]}
-                alt="Best Performer Certificate"
-              />
-            </div>
-          )}
         </TabPanel>
       ))}
     </div>

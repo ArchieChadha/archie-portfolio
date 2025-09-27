@@ -27,6 +27,31 @@ class Certifications extends React.Component {
             <div className="certification-item">
               <div className="certification-header">
                 <div className="certification-title">
+                  <span className="certification-name">Scrum Fundamentals Certified (SFC™)</span>
+                  <a
+                    href="https://www.scrumstudy.com/certification/verify?type=SFC&number=1107640"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="certification-link-button"
+                  >
+                    View Certificate
+                  </a>
+                </div>
+                <div className="certification-issuer">SCRUMstudy</div>
+                <div className="certification-date">Issued: AUG 2025 (Certificate ID: 1107640)</div>
+              </div>
+              <div className="certification-desc">
+                Validated understanding of Agile methodology, Scrum framework, and Scrum practices for delivering projects effectively.
+              </div>
+              <div className="skills-tags">
+                <span className="skill-tag">Agile</span>
+                <span className="skill-tag">Scrum Framework</span>
+                <span className="skill-tag">Project Delivery</span>
+              </div>
+            </div>
+            <div className="certification-item">
+              <div className="certification-header">
+                <div className="certification-title">
                   <span className="certification-name">Elements of AI</span>
                   <a
                     href="https://certificates.mooc.fi/validate/4moptvdac7l"
