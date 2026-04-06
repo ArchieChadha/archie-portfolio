@@ -36,7 +36,7 @@ class Intro extends React.Component {
         <FadeInSection>
           <div className="intro-subtitle">Welcome to my Digital Space!</div>
           <div className="intro-desc">
-            I'm a Software Developer from Melbourne, Australia with a knack for creating innovative solutions that make a real impact through AI, full-stack development, and data visualization. Always eager to learn and solve real-world problems with code.
+            I'm a Business Analyst from Melbourne, Australia with a knack for creating innovative solutions that make a real impact through AI, full-stack development, and data visualization. Always eager to learn and solve real-world problems.
           </div>
           <a
             href="mailto:archiechadha12@gmail.com"
