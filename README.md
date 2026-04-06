@@ -1,6 +1,6 @@
 Archie Chadha — Personal Portfolio Website
 
-A responsive, modern portfolio showcasing my projects, skills, and background as a Software Developer and IT student.
+A responsive, modern portfolio showcasing my projects, skills, and background as a BA and IT student.
 
 Overview
 This website serves as a central hub to highlight my experience, technical expertise, and selected works. Built with clean UI/UX in mind, it's designed to be visually appealing, mobile-friendly, and informative for recruiters, collaborators, and potential employers.
